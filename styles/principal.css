@@ -5,6 +5,17 @@
     padding: 0px;
 }
 
+  @import url('https://fonts.googleapis.com/css2?family=Kreon:wght@400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');  
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&display=swap');
+/*
+font-family: 'Acme', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Kreon', serif;
+
+*/
+
+
 a {
     color: black;
     text-decoration: none;
@@ -27,7 +38,6 @@ body{
     justify-content: center;
     justify-items: center;
     height: 200px;
-    background-color: rgb(0, 0, 0);
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.164);
     background: black url('../imagens/banner-sw2.png') center center no-repeat;
     background-size: contain;
@@ -85,12 +95,14 @@ nav > a:hover {
 }
 
 .comunicado>h2{
+    font-family: 'Acme', sans-serif;
     text-align: center;
     font-size: 1.1em;
     padding: 0px 0px 15px 0px;
 }
 
 .comunicado>h3{
+    font-family: 'Acme', sans-serif;
     text-align: center;
     font-size: 0.8em;
     font-weight: 500;
@@ -114,6 +126,7 @@ hr {
 }
 
 .resumo>h3{
+    font-family: 'Acme', sans-serif;
     margin-bottom: 15px;
 }
 
@@ -123,6 +136,24 @@ hr {
     text-align: justify ;
     text-indent: 30px;
 }
+
+/******************************  Video  *****************************/
+
+.video{
+    margin-bottom: 20px;
+}
+
+.video>#video-home{
+    display: flex;
+    justify-content: center;
+
+}
+
+.video>#video-home>iframe{
+    border-radius: 1%;
+    border: 5px solid black;
+}
+
 
 /******************************  Contatos  *****************************/
 
@@ -144,19 +175,19 @@ hr {
     width: 90px;
 }
 
-
-
 .contato>a>.imggoogleplay{
     width: 236px;
     height: 69px;
     margin-bottom: 10px;
-    border: 3px solid rgba(0, 0, 0, 0)
+    border: 3px solid rgba(0, 0, 0, 0);
+    transition: all 0.2s;
 }
 
 .contato>a>.imggoogleplay:hover{
-    width: 249px;
+    width: 250px;
     height: 79px;
     margin-top: -10px;
+    transition: all 0.2s;
     
 }
 
@@ -164,12 +195,14 @@ hr {
     width: 250px;
     height: 70px;
     margin-bottom: 5px;
+    transition: all 0.2s;
 }
 
 .contato>a>.imgappstore:hover{
     width: 270px;
     height: 80px;
     margin-bottom: -5px;
+    transition: all 0.2s;
 }
 
 .contato>#contato2>.sobrenos{
@@ -206,10 +239,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;    
-    height: 40px;
+    height: 25px;
     font-size: 0.90em;
     font-weight: 700;
-    background-color: #3EC5D4;
-    color: rgba(0, 0, 0, 0.585);
+    background-color: #3ec5d4bb;
+    color: rgba(0, 0, 0, 0.75);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.244) ;
 }
