@@ -206,9 +206,7 @@ hr {
 
 /******************************  Footer  *******************************/
 
-footer>p{
-    text-indent: 10px;
-}
+
 
 footer {
     margin: auto;
@@ -223,4 +221,9 @@ footer {
     background-color: #3ec5d4bb;
     color: rgba(0, 0, 0, 0.75);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) ;
+} 
+
+footer>p{
+    text-indent: 10px;
+    text-align: center;
 }
