@@ -5,7 +5,7 @@ h3{
 }
 
 p {
-    text-align: center;
+    text-align: justify;
     text-indent: 10px;
 }
 
@@ -16,7 +16,9 @@ p {
     margin-bottom: 20px;
 }
 
-.primeirospassos1-2
+.primeirospassos1-2{
+    
+}
 
 .imgsw-logo {
     width: 305px;
