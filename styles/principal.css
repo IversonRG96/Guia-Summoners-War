@@ -15,7 +15,7 @@ a {
 
 h3 {
     font-family: 'Acme', sans-serif;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 p {
@@ -24,6 +24,8 @@ p {
 
 section {
     padding: 0px 10px;
+    line-height: 23px;
+
 }
 
 a, p, h1, h2, h3 {
@@ -32,10 +34,6 @@ a, p, h1, h2, h3 {
 
 .text-blue{
     color: #16b4c5;
-}
-
-#espacamento{
-    line-height: 23px;
 }
 
 body{
@@ -143,6 +141,7 @@ hr {
     background-color: black;
     color: white;
     border-radius: 10px 10px 0px 0px;
+    line-height: 19px;
 }
 
 .contato>div>a>.imgreact{
@@ -226,6 +225,7 @@ footer {
 } 
 
 footer>p {
+    line-height: 10px;
     text-indent: 10px;
     text-align: center;
 }
