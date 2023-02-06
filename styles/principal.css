@@ -43,7 +43,7 @@ body{
 
 /****************************  Painel  *****************************/
 
-.painel-geral>.painel-banner {
+.painel-banner {
     display: grid;
     align-content: center;
     justify-content: center;
@@ -57,7 +57,7 @@ body{
 
 /******************************  Menu  *******************************/
 
-.painel-geral>header{
+header{
     background-color: #3EC5D4;
     color: black;
     display: grid;
