@@ -26,10 +26,6 @@ section {
     padding: 0px 10px;
 }
 
-html{
-    overflow-y: hidden;
-}
-
 a, p, h1, h2, h3 {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.16);
 }
