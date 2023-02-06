@@ -34,6 +34,10 @@ a, p, h1, h2, h3 {
     color: #16b4c5;
 }
 
+#espacamento{
+    line-height: 23px;
+}
+
 body{
     min-width: 300px;
     max-width: 768px;
@@ -181,6 +185,7 @@ hr {
 
 .contato>#contato2>div>p{
     text-indent: 0px;
+    text-align: center;
 }
 
 .contato>#contato2>.sobrenos>p>a{
@@ -206,8 +211,6 @@ hr {
 
 /******************************  Footer  *******************************/
 
-
-
 footer {
     margin: auto;
     margin-top: 1px;
@@ -222,7 +225,7 @@ footer {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) ;
 } 
 
-footer>p{
+footer>p {
     text-indent: 10px;
     text-align: center;
 }
