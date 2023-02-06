@@ -172,7 +172,6 @@ hr {
 .contato>a>.imgappstore:hover{
     width: 270px;
     height: 80px;
-    margin-bottom: -5px;
     transition: all 0.2s;
 }
 
