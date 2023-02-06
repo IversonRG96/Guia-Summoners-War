@@ -211,11 +211,10 @@ hr {
 footer {
     margin: auto;
     margin-top: 1px;
-    padding: 0px 15px 0px 0px;
+    padding: 10px 15px 10px 0px;
     display: flex;
     justify-content: center;
     align-items: center;    
-    height: 30px;
     font-size: 0.80em;
     font-weight: 700;
     background-color: #3ec5d4bb;
