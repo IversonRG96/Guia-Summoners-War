@@ -43,7 +43,7 @@ body{
 
 /****************************  Painel  *****************************/
 
-.painel-banner {
+.painel-geral>.painel-banner {
     display: grid;
     align-content: center;
     justify-content: center;
@@ -57,7 +57,7 @@ body{
 
 /******************************  Menu  *******************************/
 
-header{
+.painel-geral>header{
     background-color: #3EC5D4;
     color: black;
     display: grid;
@@ -128,7 +128,8 @@ hr {
 /******************************  Contatos  *****************************/
 
 .contato {
-    margin: auto;
+    width: auto;
+    padding: 0px 15px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -148,7 +149,6 @@ hr {
     width: 236px;
     height: 69px;
     margin-bottom: 10px;
-    border: 3px solid rgba(0, 0, 0, 0);
     transition: all 0.2s;
 }
 
@@ -207,12 +207,13 @@ hr {
 /******************************  Footer  *******************************/
 
 footer>p{
-    text-indent: 0px;
+    text-indent: 10px;
 }
 
 footer {
-    margin-top: 3px;
     margin: auto;
+    margin-top: 1px;
+    padding: 0px 15px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;    
