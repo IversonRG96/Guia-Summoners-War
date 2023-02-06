@@ -20,6 +20,7 @@ h3 {
 
 p {
     text-indent: 30px;
+    margin-bottom: 15px;
 }
 
 section {
@@ -185,6 +186,7 @@ hr {
 .contato>#contato2>div>p{
     text-indent: 0px;
     text-align: center;
+    margin-bottom: 1px;
 }
 
 .contato>#contato2>.sobrenos>p>a{
@@ -228,4 +230,5 @@ footer>p {
     line-height: 10px;
     text-indent: 10px;
     text-align: center;
+    margin-bottom: 1px;
 }
