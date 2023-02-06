@@ -215,7 +215,7 @@ hr {
 footer {
     margin: auto;
     margin-top: 1px;
-    padding: 10px 15px 10px 0px;
+    padding: 5px 0px;
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -227,7 +227,8 @@ footer {
 } 
 
 footer>p {
-    line-height: 10px;
-    text-indent: 10px;
+    line-height: 15px;
+    text-indent: 0px;
     text-align: center;
+    margin-bottom: 0px;
 }
