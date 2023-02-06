@@ -44,8 +44,6 @@ body{
 /****************************  Painel  *****************************/
 
 .painel-banner {
-    min-width: 300px;
-    padding: 0px 3px;
     display: grid;
     align-content: center;
     justify-content: center;
