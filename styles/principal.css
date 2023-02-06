@@ -23,7 +23,7 @@ p {
 }
 
 section {
-    padding: 0px 15px;
+    padding: 0px 10px;
 }
 
 a, p, h1, h2, h3 {
@@ -35,7 +35,7 @@ a, p, h1, h2, h3 {
 }
 
 body{
-    min-width: 315px;
+    min-width: 300px;
     max-width: 768px;
     margin: auto;
     padding: 0px 5px;
@@ -172,13 +172,17 @@ hr {
 .contato>a>.imgappstore:hover{
     width: 270px;
     height: 80px;
+    margin-bottom: -5px;
     transition: all 0.2s;
 }
 
 .contato>#contato2>.sobrenos{
-    padding-left: 15px;
     text-align: center;
     color: white;
+}
+
+.contato>#contato2>div>p{
+    text-indent: 0px;
 }
 
 .contato>#contato2>.sobrenos>p>a{
@@ -204,13 +208,18 @@ hr {
 
 /******************************  Footer  *******************************/
 
+footer>p{
+    text-indent: 0px;
+}
+
 footer {
+    margin-top: 3px;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;    
-    height: 25px;
-    font-size: 0.90em;
+    height: 30px;
+    font-size: 0.80em;
     font-weight: 700;
     background-color: #3ec5d4bb;
     color: rgba(0, 0, 0, 0.75);
