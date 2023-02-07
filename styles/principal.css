@@ -37,6 +37,11 @@ a, p, h1, h2, h3 {
     color: #16b4c5;
 }
 
+.text-blue2{
+    color:#3ec7d7;
+
+}
+
 body{
     min-width: 300px;
     max-width: 768px;

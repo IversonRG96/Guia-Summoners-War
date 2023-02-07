@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.box-img-tricaru{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box-img-tricaru>.imgs-tricaru{
+    width: 93px;
+    height: 85px;
+}
+
+.box-img-verde{
+    display: flex;
+    justify-content: center;
+}
+
+.box-img-verde>.img-verde-tricarus{
+    width: 70px;
+    height: 105px;
+}
