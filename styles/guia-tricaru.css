@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+h3{
+    text-align: center;
+}
+
+
 .box-img-tricaru{
     display: flex;
     flex-direction: row;
