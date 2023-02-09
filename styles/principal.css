@@ -157,24 +157,10 @@ hr {
     width: 90px;
 }
 
-.contato>a>.imggoogleplay{
-    width: 236px;
-    height: 69px;
-    margin-bottom: 10px;
-    transition: all 0.2s;
-}
-
-.contato>a>.imggoogleplay:hover{
-    width: 250px;
-    height: 79px;
-    margin-top: -10px;
-    transition: all 0.2s;
-    
-}
-
 .contato>a>.imgappstore{
     width: 250px;
     height: 70px;
+    margin-top: 10px;
     margin-bottom: 5px;
     transition: all 0.2s;
 }
@@ -182,6 +168,21 @@ hr {
 .contato>a>.imgappstore:hover{
     width: 270px;
     height: 80px;
+    margin-bottom: -5px;
+    transition: all 0.2s;
+}
+
+.contato>a>.imggoogleplay{
+    width: 236px;
+    height: 69px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: all 0.2s;
+}
+
+.contato>a>.imggoogleplay:hover{
+    width: 250px;
+    height: 79px;
     margin-bottom: -5px;
     transition: all 0.2s;
 }
@@ -229,7 +230,7 @@ footer {
     align-items: center;    
     font-size: 0.80em;
     font-weight: 700;
-    background-color: #3ec5d4bb;
+    background-color: #3ec5d4e7;
     color: rgba(0, 0, 0, 0.508);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) ;
 } 

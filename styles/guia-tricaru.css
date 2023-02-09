@@ -11,6 +11,7 @@ h3{
 
 .box-img-verde>.img-verde-tricarus{
     width: 78px;
+    margin-bottom: 0px;
     box-shadow: none;
 }
 
@@ -22,7 +23,7 @@ h3{
 }
 
 .box-img-tricaru>.imgs-tricaru{
-    width: 105px;
+    width: 100px;
     box-shadow: none;
 }
 
@@ -62,12 +63,26 @@ h3{
 
 .box-img-verde>.img-verde{
     width: 95px;
+    box-shadow: none;
 }
 
-.box-img-verde>.img-verde-runas{
+.box-img-verde>.img-verde-runas {
     width:270px;
-    border-radius: 5%;
-    box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.30);
-    margin: 15px 0px;
 }
 
+#video-tricaru{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video-tricaru>iframe{
+    border-radius: 10px 10px;
+    border: 0px;
+    border: 5px solid black;
+    margin-bottom: 15px;
+}
+
+.text-center>p{
+    text-align: center;
+}
