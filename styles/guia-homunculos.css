@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.box-imgs-homo-all{
+    display: flex;
+    justify-content: center;
+}
+
+.box-imgs-homo-all>.img-homo-all{
+    width: 260px;
+    box-shadow: none;
+}
+
+.lista{
+    display: flex;
+    justify-content:center ;
+    font-weight: bolder;
+}
+
+.lista> ul {
+    list-style-type:disc;
+}
