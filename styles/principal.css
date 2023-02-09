@@ -14,6 +14,7 @@ a {
 }
 
 h3 {
+    text-align: center;
     font-family: 'Acme', sans-serif;
     margin: 10px 0px;
 }
@@ -39,6 +40,13 @@ img {
     border-radius: 5%;
     box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.30);
     margin: 15px 0px;
+}
+
+hr {
+    margin: 20px 6%;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.723);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.285);
 }
 
 .text-blue{
@@ -129,15 +137,6 @@ nav > a:hover {
     text-align: center;
     font-size: 0.9em;
     font-weight: 500;
-}
-
-/***************************  HR ***************************************/
-
-hr {
-    margin: 25px 6%;
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.723);
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.285);
 }
 
 /******************************  Contatos  *****************************/

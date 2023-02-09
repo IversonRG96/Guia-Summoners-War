@@ -19,3 +19,39 @@
 .lista> ul {
     list-style-type:disc;
 }
+
+.box-img-homo, .box-img-pergaminho{
+    display: flex;
+    justify-content: center;
+}
+
+.box-img-homo>.img-fogo-agua{
+    width: 230px;
+    box-shadow: none;
+}
+
+.box-img-pergaminho>.img-pergaminho{
+    width: 265px;
+}
+
+.box-img-agua, .box-img-escuridao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-img-agua>.img-agua, .box-img-escuridao>.img-escuridao {
+    width: 115px;
+    box-shadow: none;
+    margin: 0px;
+
+}
+
+.box-img-agua>.img-agua-build, .box-img-escuridao>.img-escuridao-build {
+    width: 275px;
+    margin-top: 2px;
+}
+
+.box-img-escuridao>.img-escuridao{
+    width: 130px;
+}

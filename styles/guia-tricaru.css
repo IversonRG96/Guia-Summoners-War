@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-h3{
-    text-align: center;
-}
-
 .box-img-verde{
     display: flex;
     justify-content: center;
