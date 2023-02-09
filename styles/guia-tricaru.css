@@ -41,6 +41,10 @@ h3{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.187);
 }
 
+.box-imgs-runa-skill>.img-fullguard{
+    margin-bottom: 25px;
+}
+
 .box-tabelas{
     display: flex;
     flex-direction: column;
@@ -53,7 +57,9 @@ h3{
 
 .tabela-tricaru-metade {
     width: 260px;
-    margin: 15px 0px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
 
 }
 
