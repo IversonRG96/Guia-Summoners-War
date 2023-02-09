@@ -21,6 +21,7 @@ h3 {
 p {
     text-align: justify;
     text-indent: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -32,6 +33,12 @@ section {
 
 a, p, h1, h2, h3 {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.16);
+}
+
+img {
+    border-radius: 5%;
+    box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.30);
+    margin: 15px 0px;
 }
 
 .text-blue{

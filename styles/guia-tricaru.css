@@ -10,8 +10,8 @@ h3{
 }
 
 .box-img-verde>.img-verde-tricarus{
-    width: 75px;
-    height: 110px;
+    width: 78px;
+    box-shadow: none;
 }
 
 .box-img-tricaru{
@@ -22,8 +22,8 @@ h3{
 }
 
 .box-img-tricaru>.imgs-tricaru{
-    width: 95px;
-    height: 90px;
+    width: 105px;
+    box-shadow: none;
 }
 
 .box-imgs-runa-skill{
@@ -38,7 +38,7 @@ h3{
     height: 240px;
     border-radius: 5%;
     margin-bottom: 15px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.187);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.30);
 }
 
 .box-imgs-runa-skill>.img-fullguard{
@@ -57,10 +57,17 @@ h3{
 
 .tabela-tricaru-metade {
     width: 260px;
-    margin: 20px 0px;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px black;
-
 }
 
+.box-img-verde>.img-verde{
+    width: 95px;
+}
+
+.box-img-verde>.img-verde-runas{
+    width:270px;
+    border-radius: 5%;
+    box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.30);
+    margin: 15px 0px;
+}
 
