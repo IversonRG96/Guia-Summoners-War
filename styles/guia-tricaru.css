@@ -4,24 +4,57 @@ h3{
     text-align: center;
 }
 
-
-.box-img-tricaru{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.box-img-tricaru>.imgs-tricaru{
-    width: 93px;
-    height: 85px;
-}
-
 .box-img-verde{
     display: flex;
     justify-content: center;
 }
 
 .box-img-verde>.img-verde-tricarus{
-    width: 70px;
-    height: 105px;
+    width: 75px;
+    height: 110px;
 }
+
+.box-img-tricaru{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.box-img-tricaru>.imgs-tricaru{
+    width: 95px;
+    height: 90px;
+}
+
+.box-imgs-runa-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box-imgs-runa-skill>.img-fullguard, .img-tricaru-skill {
+    width: 260px;
+    height: 240px;
+    border-radius: 5%;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.187);
+}
+
+.box-tabelas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabela-tricaru{
+    display: none;
+}
+
+.tabela-tricaru-metade {
+    width: 260px;
+    margin: 15px 0px;
+
+}
+
+
