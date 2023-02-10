@@ -59,7 +59,7 @@ hr {
 
 body{
     min-width: 300px;
-    max-width: 768px;
+    max-width: 1200px;
     margin: auto;
     padding: 0px 5px;
 }
@@ -119,6 +119,13 @@ nav > a:hover {
     font-weight: bolder;
 }
 
+/*****************************  Main  ********************************/
+
+main {
+    max-width: 599px;
+    margin: auto;
+}
+
 /*****************************  Comunicado  ********************************/
 
 .comunicado{
@@ -142,7 +149,6 @@ nav > a:hover {
 /******************************  Contatos  *****************************/
 
 .contato {
-    width: auto;
     padding: 0px 15px;
     display: flex;
     flex-direction: column;
@@ -157,7 +163,32 @@ nav > a:hover {
 }
 
 .contato>div>a>.imgreact{
-    width: 90px;
+    width: 105px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contato>#contato2>.sobrenos{
+    text-align: center;
+    color: white;
+}
+
+.contato>#contato2>div>p{
+    text-indent: 0px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.contato>#contato2>.sobrenos>p>a{
+    color: white;
+}
+
+.contato>#contato2>.sobrenos>p>a:hover{
+    color: #3EC5D4;
+}
+
+.contato>#contato2>.sobrenos>p{
+    padding-bottom: 6px;
 }
 
 .contato>a>.imgappstore{
@@ -190,29 +221,6 @@ nav > a:hover {
     transition: all 0.2s;
 }
 
-.contato>#contato2>.sobrenos{
-    text-align: center;
-    color: white;
-}
-
-.contato>#contato2>div>p{
-    text-indent: 0px;
-    text-align: center;
-    margin-bottom: 1px;
-}
-
-.contato>#contato2>.sobrenos>p>a{
-    color: white;
-}
-
-.contato>#contato2>.sobrenos>p>a:hover{
-    color: #3EC5D4;
-}
-
-.contato>#contato2>.sobrenos>p{
-    padding-bottom: 6px;
-}
-
 .contato>#contato2{
     display: flex;
     flex-direction: row;
@@ -220,6 +228,32 @@ nav > a:hover {
     align-items: center;
     padding-bottom: 10px;
     padding-top: 20px;
+}
+
+.big-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.big-box>.box-main{}
+
+.big-box>.box-menu-lateral{
+    display: none;
+    margin: 20px 10px;
+    padding: 5px;
+    min-width: 175px;
+    max-width: 175px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.17);
+    border: 2px solid #3ec5d4;
+    
+}
+
+.big-box>.box-menu-lateral>p{
+    padding: 5px;
+    text-indent: 0px;
 }
 
 /******************************  Footer  *******************************/
