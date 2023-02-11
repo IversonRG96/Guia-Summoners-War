@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.big-box>.box-menu-lateral{
+    display: none;
+}
+
 /****************************  Resumo  *********************************/
 
 .resumo{

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/***********************  Alteração de Screens  *****************************/
+
+@media screen  and (min-width:600px) and (max-width:767px) {
+
+
+}
+
+@media screen  and (min-width:768px) and (max-width:991px) {
+
+    .big-box>.box-menu-lateral{
+        display: block;
+    }
+
+    main {
+        max-width: 772px;
+    }
+
+}
+
+@media screen  and (min-width:992px) {
+
+    .big-box>.box-menu-lateral{
+        display: block;
+    }
+
+    main {
+        max-width: 981px;
+    }
+
+}

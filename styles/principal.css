@@ -122,7 +122,7 @@ nav > a:hover {
 /*****************************  Main  ********************************/
 
 main {
-    max-width: 599px;
+    max-width: 545px;
     margin: auto;
 }
 
@@ -230,7 +230,9 @@ main {
     padding-top: 20px;
 }
 
-.big-box{
+/****************************  Barra Lateral  ***************************/
+
+.big-box {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -278,3 +280,4 @@ footer>p {
     text-align: center;
     margin-bottom: 0px;
 }
+
