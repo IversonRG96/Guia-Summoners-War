@@ -67,28 +67,32 @@ body{
 /****************************  Painel  *****************************/
 
 .painel-banner {
-    display: grid;
-    align-content: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    justify-items: center;
     height: 200px;
-    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.164);
-    background: black url('../imagens/banner-sw2.png') center center no-repeat;
-    background-size: contain;
-    padding: 10px 0px;
-    border: 5px solid #3EC5D4;
-}  
+    border: 5px solid rgb(62, 197, 212);
+    background-color: black;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.164);
+}
+
+.painel-banner>.img-painel{
+    box-shadow: none;
+    background-color: black;
+    width: 280px;
+}
 
 /******************************  Menu  *******************************/
 
 header{
+    margin-top: -1px;
     background-color: #3EC5D4;
     color: black;
     display: grid;
     justify-content: center;
     justify-items: center;
-    border-radius: 0px 0px 10px 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.164);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.164);
 }
 
 #menuHamb {
@@ -243,14 +247,15 @@ main {
 
 .big-box>.box-menu-lateral{
     display: none;
-    margin: 20px 10px;
-    padding: 5px;
+    margin: 20px 0px;
+    padding: 10px;
     min-width: 175px;
     max-width: 175px;
     height: 500px;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.17);
-    border: 2px solid #3ec5d4;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.17);
+    border: 5px solid rgba(62, 197, 212, 0.622);
+    background-color: rgba(62, 197, 212, 0.105);
     
 }
 

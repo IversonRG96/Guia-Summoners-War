@@ -14,7 +14,11 @@
     }
 
     .painel-banner{
-        border-radius: 0px 0px 10px 10px;
+        border-radius: 0px 0px 5px 5px;
+        height: 230px;
+    }
+    .painel-banner>.img-painel{
+        width: 400px;
     }
     
     #menuHamb{
@@ -31,6 +35,14 @@
     
     .big-box>.box-menu-lateral{
         display: block;
+    }
+
+    .painel-banner{
+        border-radius: 0px 0px 5px 5px;
+        height: 260px;
+    }
+    .painel-banner>.img-painel{
+        width: 460px;
     }
 
     #menuHamb{
