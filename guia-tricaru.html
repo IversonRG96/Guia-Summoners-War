@@ -7,12 +7,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/principal.css">
     <link rel="stylesheet" href="styles/guia-tricaru.css">
+    <link rel="stylesheet" href="screens-styles/home-screens.css" media="screen and (min-width:600px)">
     <link rel="stylesheet" href="screens-styles/principal-screens.css" media="screen and (min-width:600px)">
     <title>SW - ReactAttack</title>
 </head>
 <body>
     <div class="painel-banner">
-        <img src="imagens/banner-sw2.png" alt="" class="img-painel">
+        <img src="imagens/banner-sw2.png" alt="" class="img-banner-painel">
+        <img src="imagens/logo-reactattack2.png" alt="" class="img-logo-painel">
     </div>
     <header>
         <span class="material-icons" id="menuHamb">menu</span>
@@ -26,77 +28,91 @@
             <nav><a href="runas.html">Runas</a></nav>
         </menu>
     </header>
-    <main>
-        <section class="comunicado">
-            <h2>ABAIXO FALAREMOS SOBRE COMO FAZER SEU TIME TRICARU</h2>
-        </section>
-        <hr>
-        <section>
-            <h3>O Tricaru</h3>
-            <div class="box-img-verde">
-                <img src="imagens/guia-tricaru-verdehile.png" alt="" class="img-verde-tricarus">
-            </div>    
-            <div class="box-img-tricaru">
-                <img src="imagens/guia-tricaru-icaru.png" alt="" class="imgs-tricaru">
-                <img src="imagens/guia-tricaru-icaru.png" alt="" class="imgs-tricaru">
-                <img src="imagens/guia-tricaru-icaru.png" alt="" class="imgs-tricaru">
-            </div>
-            <p>Para esse time funcionar, os icarus precisam estar runados de acordo com a sua defesa, que os façam conseguir puxar 3 monstros. Para isso é necessário uma quantia de defesa especifica.</p>
+    <div class="big-box">
+        <main class="box-main">
+            <section class="comunicado">
+                <h2>ABAIXO FALAREMOS SOBRE COMO FAZER SEU TIME TRICARU</h2>
+            </section>
+            <hr>
+            <section>
+                <h3>O Tricaru</h3>
+                <div class="box-img-verde">
+                    <img src="imagens/guia-tricaru-verdehile.png" alt="" class="img-verde-tricarus">
+                </div>
+                <div class="box-img-tricaru">
+                    <img src="imagens/guia-tricaru-icaru.png" alt="" class="imgs-tricaru">
+                    <img src="imagens/guia-tricaru-icaru.png" alt="" class="imgs-tricaru">
+                    <img src="imagens/guia-tricaru-icaru.png" alt="" class="imgs-tricaru">
+                </div>
+                <p>Para esse time funcionar, os icarus precisam estar runados de acordo com a sua defesa, que os façam conseguir puxar 3 monstros. Para isso é necessário uma quantia de defesa especifica.</p>
         
-            <div class="box-imgs-runa-skill">
-                <img src="imagens/guia-tricaru-icaru-runas-fullguard.png" alt="" class="img-fullguard" >
-                <img src="imagens/guia-tricaru-icaru-skill.png" alt="" class="img-tricaru-skill">
-            </div>
-        </section>
-        <hr>        
-        <section>
-            <h3>Tabela de Def% para criar os Icarus!</h3>
-            <p>Abaixo está uma parte da tabela de Def% dos Icarus de acordo com o level dos <i>totem de defesa</i>, bônus de guild e o número de sets de runas determination:</p>
-            <div class="box-tabelas">
-                <img src="imagens/guia-tricaru-tabela-metade.png" alt="" class="tabela-tricaru-metade" >
-                <img src="imagens/guia-tricaru-tabela.png" alt="" class="tabela-tricaru">
-            </div>
-            <p class="clique-aqui-tricaru">Clique em: <a href="imagens/guia-tricaru-tabela.png" download="Tabela-Tricaru"><i><strong class="text-blue">Tabela de Defesa dos Icarus</strong></i></a> para baixar a tabela completa.</p>
-            <p><strong class="text-blue">Obs.:</strong> Caso sua guild não tenha o bônus de 5%, aumente a defesa dos tricarus.</p>
-        </section>
-        <hr>
-        <section>
-            <h3>Montando seu Verdehile pro Tricaru</h3>
-            <div class="box-img-verde">
-                <img src="imagens/guia-tricaru-verdehile.png" alt="" class="img-verde">
-            </div>
-            <p>As runas são baseadas na passiva do Verd. Quanto maior o Dano crítco e o Atk, mais ele cura. A taxa crítica do Verd, tem que ser 100%. Para que a barra de Atk dos mobs, encha e faça ganhar turnos.</p>
-            <p>Recomenda-se por set de <strong>Rage/Blade</strong>, mas pode-se usar set <strong>Fatal/Blade</strong> ou <strong>Violet/Blade</strong>.</p>
-             <div class="box-img-verde">
-                <img src="imagens/guia-tricaru-verdehile-runas.png" alt="" class="img-verde-runas">
-
-             </div>   
-            <p>Podemos runar também com set quebrado. Desde que esteja com os status da imagem ou próximo desses status.</p>
-        </section>
-        <hr>
-        <section>
-            <h3>Hora de por em prática!</h3>
-            <p>Agora veremos na prática como funciona o Tricaru no: Dragão B12, Cripta B10 e Necro B12. </p>
-            <div class="text-center">
-                <p><strong>Dragão B12</strong></p>
-                <div id="video-tricaru">
-                        <iframe width="280vw" height="300vh" src="https://www.youtube.com/embed/QVWXSu35cvk" title="SW - ReactAttack - Tricaru no DB12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+                <div class="box-imgs-runa-skill">
+                    <img src="imagens/guia-tricaru-icaru-runas-fullguard.png" alt="" class="img-fullguard" >
+                    <img src="imagens/guia-tricaru-icaru-skill.png" alt="" class="img-tricaru-skill">
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h3>Tabela de Def% para criar os Icarus!</h3>
+                <p>Abaixo está uma parte da tabela de Def% dos Icarus de acordo com o level dos <i>totem de defesa</i>, bônus de guild e o número de sets de runas determination:</p>
+                <div class="box-tabelas">
+                    <img src="imagens/guia-tricaru-tabela-metade.png" alt="" class="tabela-tricaru-metade" >
+                    <img src="imagens/guia-tricaru-tabela.png" alt="" class="tabela-tricaru">
+                </div>
+                <p class="clique-aqui-tricaru">Clique em: <a href="imagens/guia-tricaru-tabela.png" download="Tabela-Tricaru"><i><strong class="text-blue">Tabela de Defesa dos Icarus</strong></i></a> para baixar a tabela completa.</p>
+                <p><strong class="text-blue">Obs.:</strong> Caso sua guild não tenha o bônus de 5%, aumente a defesa dos tricarus.</p>
+            </section>
+            <hr>
+            <section>
+                <h3>Montando seu Verdehile pro Tricaru</h3>
+                <div class="box-img-verde">
+                    <img src="imagens/guia-tricaru-verdehile.png" alt="" class="img-verde">
+                </div>
+                <p>As runas são baseadas na passiva do Verd. Quanto maior o Dano crítco e o Atk, mais ele cura. A taxa crítica do Verd, tem que ser 100%. Para que a barra de Atk dos mobs, encha e faça ganhar turnos.</p>
+                <p>Recomenda-se por set de <strong>Rage/Blade</strong>, mas pode-se usar set <strong>Fatal/Blade</strong> ou <strong>Violet/Blade</strong>.</p>
+                 <div class="box-img-verde">
+                    <img src="imagens/guia-tricaru-verdehile-runas.png" alt="" class="img-verde-runas">
+                 </div>
+                <p>Podemos runar também com set quebrado. Desde que esteja com os status da imagem ou próximo desses status.</p>
+            </section>
+            <hr>
+            <section>
+                <h3>Hora de por em prática!</h3>
+                <p>Agora veremos na prática como funciona o Tricaru no: Dragão B12, Cripta B10 e Necro B12. </p>
+                <div class="text-center">
+                    <p><strong>Dragão B12</strong></p>
+                    <div id="video-tricaru">
+                            <iframe width="280vw" height="300vh" src="https://www.youtube.com/embed/QVWXSu35cvk" title="SW - ReactAttack - Tricaru no DB12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <p><strong>Necro B12</strong></p>
+                    <div id="video-tricaru">
+                        <iframe width="280vw" height="300vh" src="https://www.youtube.com/embed/wB94zHwwkRg" title="SW - ReactAttack - Tricaru no Necro B12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <p><strong>Cripta B10</strong></p>
+                    <div id="video-tricaru">
+                        <iframe width="280vw" height="300vh" src="https://www.youtube.com/embed/DGbsHmieG5w" title="SW - ReactAttack - Tricaru na Cripta B10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="box-lateral">
+            <div class="cases">
+                <div class="case-logo">
+                    <img src="imagens/logo-reactattack2.png" alt="" class="img-logo-lateral">
                 </div>
             </div>
-            <div class="text-center">
-                <p><strong>Necro B12</strong></p>
-                <div id="video-tricaru">
-                    <iframe width="280vw" height="300vh" src="https://www.youtube.com/embed/wB94zHwwkRg" title="SW - ReactAttack - Tricaru no Necro B12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="cases">
+                <div class="case-menu">
+                    <p>guias</p>
                 </div>
             </div>
-            <div class="text-center">
-                <p><strong>Cripta B10</strong></p>
-                <div id="video-tricaru">
-                    <iframe width="280vw" height="300vh" src="https://www.youtube.com/embed/DGbsHmieG5w" title="SW - ReactAttack - Tricaru na Cripta B10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </div>
-        </section>
-        <section class="contato">
+        </div>
+    </div>
+    <section class="contato">
         <div id="contato2">
             <a href=""><img src="imagens/logo-reactattack.png" alt="logo-rt" class="imgreact"></a>
             <div class="sobrenos">
@@ -106,10 +122,8 @@
                 <p><a href="#">Idealizadores</a></p>
             </div>
         </div>
-        <a href="https://apps.apple.com/us/app/summoners-war/id852912420" target="_blank"><img
-                src="imagens/loja-appstore.png" alt="loja-appstore" class="imgappstore"></a>
-        <a href="https://play.google.com/store/apps/details?id=com.com2us.smon.normal.freefull.google.kr.android.common&hl=pt_BR&gl=US&pli=1"
-            target="_blank"><img src="imagens/loja-googleplay.png" alt="loja-googleplay" class="imggoogleplay"></a>
+        <a href="https://apps.apple.com/us/app/summoners-war/id852912420" target="_blank"><img src="imagens/loja-appstore.png" alt="loja-appstore" class="imgappstore"></a>
+        <a href="https://play.google.com/store/apps/details?id=com.com2us.smon.normal.freefull.google.kr.android.common&hl=pt_BR&gl=US&pli=1" target="_blank"><img src="imagens/loja-googleplay.png" alt="loja-googleplay" class="imggoogleplay"></a>
     </section>
     <footer>
         <p>Copyright 2023 @ReactAttack - Open License</p>

@@ -7,13 +7,15 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/principal.css">
     <link rel="stylesheet" href="styles/guia-homunculos.css">
+    <link rel="stylesheet" href="screens-styles/home-screens.css" media="screen and (min-width:600px)">
     <link rel="stylesheet" href="screens-styles/principal-screens.css" media="screen and (min-width:600px)">
     <title>SW - ReactAttack</title>
 </head>
 
 <body>
     <div class="painel-banner">
-        <img src="imagens/banner-sw2.png" alt="" class="img-painel">
+        <img src="imagens/banner-sw2.png" alt="" class="img-banner-painel">
+        <img src="imagens/logo-reactattack2.png" alt="" class="img-logo-painel">
     </div>
     <header>
         <span class="material-icons" id="menuHamb">menu</span>
@@ -27,54 +29,68 @@
             <nav><a href="runas.html">Runas</a></nav>
         </menu>
     </header>
-    <main>
-        <section class="comunicado">
-            <h2>ABAIXO FALAREMOS SOBRE COMO FAZER OS HOMÚNCULUS</h2>
-        </section>
-        <hr>
-        <section>
-            <h3>Os Homúnculus</h3>
-            <p class="text-center"><i>O Homunculo é um monstro especial, que só pode ser obtido por meio de criação.</i></p>
-            <div class="box-imgs-homo-all">
-               <img src="imagens/guia-homunculos-all.png" alt="" class="img-homo-all">
+    <div class="big-box">
+        <main class="box-main">
+            <section class="comunicado">
+                <h2>ABAIXO FALAREMOS SOBRE COMO FAZER OS HOMÚNCULUS</h2>
+            </section>
+            <hr>
+            <section>
+                <h3>Os Homúnculus</h3>
+                <p class="text-center"><i>O Homunculo é um monstro especial, que só pode ser obtido por meio de criação.</i></p>
+                <div class="box-imgs-homo-all">
+                   <img src="imagens/guia-homunculos-all.png" alt="" class="img-homo-all">
+                </div>
+                <p>Cada um deles, tem seu objetivo em particular e como elemento temos: FOGO, VENTO e ÁGUA (destinados ao ataque). Além deles, temos o de LUZ e ESCURIDÂO (Suportes). O mais usado é o do elemento água, que serve para pve, mais precisamente para subir toa hard.</p>
+                <p>Para invocar seu primeiro homúnculo de FOGO, ÁGUA OU VENTO, vai precisar farma alguns cristais, nas bestas elementais - <i>Portal de Outros Mundos</i>. </p>
+                <p>Quantidade de cristais necessários:</p>
+                <div class="lista">
+                    <ul class="text-center">
+                        <li>100 Cristais de Água</li>
+                        <li>300 Cristais de Fogo</li>
+                        <li>100 Cristais de Vento</li>
+                        <li>200 Cristais Mágicos</li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h3>Qual o primeiro homúnculo que irá invocar?</h3>
+                <div class="box-img-homo">
+                    <img src="imagens/guia-homunculos-fogo-agua.png" alt="" class="img-fogo-agua">
+                </div>
+                <p>Primeiro homúnculo que você vai invocar é o de FOGO. Logo após invocá-lo, ganhará um pergaminho que vai poder resetar as habilidades. Assim poderá escolher o de água.</p>
+                <div class="box-img-pergaminho">
+                    <img src="imagens/guia-homunculos-pergaminho-reset.png" alt="" class="img-pergaminho">
+                </div>
+                <p><strong class="text-blue">Obs.:</strong> Para saber, quais times usar para conseguir os cristais, acesse o <a href="#"><i>Guia de Bestas Elementares</i></a>.</p>
+            </section>
+            <hr>
+            <section>
+                <h3>Montando sua árvore dos homúnculos</h3>
+                <div class="box-img-agua">
+                    <img src="imagens/guia-homunculos-agua.png" alt="" class="img-agua">
+                    <img src="imagens/guia-homunculos-agua-build.png" alt="" class="img-agua-build">
+                </div>
+                <div class="box-img-escuridao">
+                    <img src="imagens/guia-homunculos-dark.png" alt="" class="img-escuridao">
+                    <img src="imagens/guia-homunculos-dark-build.png" alt="" class="img-escuridao-build">
+                </div>
+            </section>
+        </main>
+        <div class="box-lateral">
+            <div class="cases">
+                <div class="case-logo">
+                    <img src="imagens/logo-reactattack2.png" alt="" class="img-logo-lateral">
+                </div>
             </div>
-            <p>Cada um deles, tem seu objetivo em particular e como elemento temos: FOGO, VENTO e ÁGUA (destinados ao ataque). Além deles, temos o de LUZ e ESCURIDÂO (Suportes). O mais usado é o do elemento água, que serve para pve, mais precisamente para subir toa hard.</p>
-            <p>Para invocar seu primeiro homúnculo de FOGO, ÁGUA OU VENTO, vai precisar farma alguns cristais, nas bestas elementais - <i>Portal de Outros Mundos</i>. </p>
-            <p>Quantidade de cristais necessários:</p>
-            <div class="lista">
-                <ul class="text-center">
-                    <li>100 Cristais de Água</li>
-                    <li>300 Cristais de Fogo</li>
-                    <li>100 Cristais de Vento</li>
-                    <li>200 Cristais Mágicos</li>
-                </ul>
+            <div class="cases">
+                <div class="case-menu">
+                    <p>guias</p>
+                </div>
             </div>
-        </section>
-        <hr>
-        <section>
-            <h3>Qual o primeiro homúnculo que irá invocar?</h3>
-            <div class="box-img-homo">
-                <img src="imagens/guia-homunculos-fogo-agua.png" alt="" class="img-fogo-agua"> 
-            </div>
-            <p>Primeiro homúnculo que você vai invocar é o de FOGO. Logo após invocá-lo, ganhará um pergaminho que vai poder resetar as habilidades. Assim poderá escolher o de água.</p>
-            <div class="box-img-pergaminho">
-                <img src="imagens/guia-homunculos-pergaminho-reset.png" alt="" class="img-pergaminho">
-            </div>
-            <p><strong class="text-blue">Obs.:</strong> Para saber, quais times usar para conseguir os cristais, acesse o <a href="#"><i>Guia de Bestas Elementares</i></a>.</p>
-        </section>
-        <hr>
-        <section>
-            <h3>Montando sua árvore dos homúnculos</h3>
-            <div class="box-img-agua">
-                <img src="imagens/guia-homunculos-agua.png" alt="" class="img-agua">
-                <img src="imagens/guia-homunculos-agua-build.png" alt="" class="img-agua-build">
-            </div>
-            <div class="box-img-escuridao">
-                <img src="imagens/guia-homunculos-dark.png" alt="" class="img-escuridao">
-                <img src="imagens/guia-homunculos-dark-build.png" alt="" class="img-escuridao-build">
-            </div>
-        </section>
-    </main>
+        </div>
+    </div>
     <section class="contato">
         <div id="contato2">
             <a href=""><img src="imagens/logo-reactattack.png" alt="logo-rt" class="imgreact"></a>

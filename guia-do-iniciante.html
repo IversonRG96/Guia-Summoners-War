@@ -8,12 +8,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/principal.css">
     <link rel="stylesheet" href="styles/guia-do-iniciante.css">
+    <link rel="stylesheet" href="screens-styles/home-screens.css" media="screen and (min-width:600px)">
     <link rel="stylesheet" href="screens-styles/principal-screens.css" media="screen and (min-width:600px)">
     <title>SW - ReactAttack</title>
 </head>
 <body>
     <div class="painel-banner">
-        <img src="imagens/banner-sw2.png" alt="" class="img-painel">
+        <img src="imagens/banner-sw2.png" alt="" class="img-banner-painel">
+        <img src="imagens/logo-reactattack2.png" alt="" class="img-logo-painel">
     </div>
     <header>
         <span class="material-icons" id="menuHamb">menu</span>
@@ -27,136 +29,150 @@
             <nav><a href="runas.html">Runas</a></nav>
         </menu>
     </header>
-    <main>
-        <section class="comunicado">
-            <h2>O GUIA ABAIXO TE AJUDARÁ NA SUA JORNADA!</h2>
-            <p class="text-center"><i>"Que A Força Esteja Com Você"</i></p>
-        </section>
-        <hr>
-        <section>
-            <div class="primeirospassos1">
-                <h3>Primeiros Passos!</h3>
-                <div class="primeirospassos1-2">
-                    <img src="imagens/guia-iniciante-logo-sw.png" class="imgsw-logo">
-                    <p>O Summoners War é um jogo muito complexo. Este guia, vai te ajudar a começar do jeito certo! Observe tudo com bastante atenção e utilize todos os recursos e bnus iniciais com clareza. </p>
-                </div>
-            </div>
-            <div>
-                <h3>Caminho do Invocador</h3>
-                <p>Sempre olhe o caminho do invocador, ele vai lhe ajudar a completar os mapa mais rápidos.</p>
-            </div>
-            <div>
-                <div class="img-box">
-                    <img src="imagens/guia-iniciante-mapa-game.png" alt="" class="imgsw-mundo">
-                    <img src="imagens/guia-iniciante-mapa-game-p.png" alt="SW-mapa-mundo" class="imgsw-mundo2">
-                </div>
-                <p><strong class="text-blue"> Dica:</strong> adicione amigos e use os monstros representante deles, com dano em área. Ex:  Homunculo de água, Rica, Kaki, Lápis, Sigmarus, Polar, Etc. Use-os de preferência nas fases difíceis.</p>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <h3>Eventos de Boas-Vindas Invocador!</h3>
-            <div>
-                <div class="img-box"><img src="imagens/guia-iniciante-evento-boasvindas.png" alt="sw-eventos" class="img-geral"></div>
-                <div>
-                    <p>No evento 4º - Escolha o mob <strong class="text-blue">IFRIT (Veromos)</strong> ele te ajudará a fazer a masmorra do dragão.</p>
-                    <p><strong class="text-blue">Dica:</strong> No evento que invoca um mob 4*, escolha o <strong class="text-blue">SILF (Tyron)</strong>, ele vai lhe ajudar a completar sua primeira toa normal.</p>
-                    <p><strong class="text-blue">Obs.:</strong> Caso tenha pego tyron, sumonando alguns ms, até o momento, escolha Kaki, Astar, Verdehile, ou, algum mob de pve.</p>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <h3><a href="#">Mobs de Fusão</a></h3>
-            <div class="box">
-                <div class="img-box"><img src="imagens/guia-iniciante-mobs-fusao.png" alt="mobs-fusão" class="img-geral"></div>
-                <div>
-                    <p>Alguns mobs são primordiais para seu PVE, um deles é o <strong class="text-blue">Verdehile</strong> e ás <strong class="text-blue">Driad</strong>, com esses mobs, você irá fazer: o Dragão B12, 2ª awaken, raid, etc..</p>
-                    <p>Sempre verifique os mobs sumonados, pois podem fazer parte de algum material de fusão - na dúvida olhe no edificio de fusão.</p>
-                    <p><strong class="text-blue">Obs.:</strong> caso pegue mobs de fusão no ms, guarde os mobs 3/4* para fazer as fusões ou realizar up-skills.</p>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <h3><a href="#">SD's Importantes</a></h3>
-            <div>
-                <div class="img-box"><img src="imagens/guia-iniciante-sds-importantes.png" alt="SDs-importantes" class="img-geral"></div>
-                <div>
-                    <p>Todas ás sextas e sábados, abrem masmorras de todos elementos. Nelas você encontrará 2 mobs importantes para seu PVE.</p>
-                    <div class="center">
-                        <p><strong>INUGAMI de escuridão (KRO)</strong></p>
-                        <p><strong>INUGAMI de luz (Belladeon)</strong></p>
-                        <p><strong>VAQUEIRA de luz (LOREN)</strong></p>
+    <div class="big-box">
+        <main class="box-main">
+            <section class="comunicado">
+                <h2>O GUIA ABAIXO TE AJUDARÁ NA SUA JORNADA!</h2>
+                <p class="text-center"><i>"Que A Força Esteja Com Você"</i></p>
+            </section>
+            <hr>
+            <section>
+                <div class="primeirospassos1">
+                    <h3>Primeiros Passos!</h3>
+                    <div class="primeirospassos1-2">
+                        <img src="imagens/guia-iniciante-logo-sw.png" class="imgsw-logo">
+                        <p>O Summoners War é um jogo muito complexo. Este guia, vai te ajudar a começar do jeito certo! Observe tudo com bastante atenção e utilize todos os recursos e bnus iniciais com clareza. </p>
                     </div>
-                    <p>Estes mobs iram te ajudar em: Raid, gigante, dragão, 2awk, pve, pvp, etc.</p>
                 </div>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <h3><a href="#">1º Despertar</a></h3>
-            <div>
-                <div class="img-box"><img src="imagens/guia-iniciante-1-despertar.png" alt="1-despertar" class="img-geral"></div>
                 <div>
-                    <p>Após você conseguir o <strong class="text-blue">KRO</strong>, upar e conseguir por ele 6*. Você irá despertá-lo (2awk).</p>
-                    <p>Vá até o portal da dimensão, em Karzan. Vai subindo os andares, até o nível 5.</p>
-                    <p><strong class="text-blue">Time:</strong> Verd(L),Loren, Fran e Kro.</p>
-                    <p>Foque os cristais da direita, esquerda e boss.</p>
-                    <p><strong class="text-blue">Dica:</strong> Nunca deixe chegar 100/100 de energia. Use sempre que possível.</p>
+                    <h3>Caminho do Invocador</h3>
+                    <p>Sempre olhe o caminho do invocador, ele vai lhe ajudar a completar os mapa mais rápidos.</p>
                 </div>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <div>
-                <h3><a href="#">Primeiro Time de Gigante B12</a></h3>
                 <div>
-                    <div class="img-box"><img src="imagens/guia-iniciante-gigante-b12-inicial.png" alt="GB12-inicial" class="img-geral"></div>
+                    <div class="img-box">
+                        <img src="imagens/guia-iniciante-mapa-game.png" alt="" class="imgsw-mundo">
+                        <img src="imagens/guia-iniciante-mapa-game-p.png" alt="SW-mapa-mundo" class="imgsw-mundo2">
+                    </div>
+                    <p><strong class="text-blue"> Dica:</strong> adicione amigos e use os monstros representante deles, com dano em área. Ex:  Homunculo de água, Rica, Kaki, Lápis, Sigmarus, Polar, Etc. Use-os de preferência nas fases difíceis.</p>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h3>Eventos de Boas-Vindas Invocador!</h3>
+                <div>
+                    <div class="img-box"><img src="imagens/guia-iniciante-evento-boasvindas.png" alt="sw-eventos" class="img-geral"></div>
                     <div>
-                        <p>Seguindo nosso guia de iniciante. Agora com time formado, você começara a fazer gigante b12.</p>
-                        <p>Nesta parte do seu pve, você vai precisar farma bastante para conseguir as runas: Swifth, Blade, Fatal. </p>
-                        <p><strong class="text-blue">Obs.:</strong> Vá na aba de runas, para saber como runar os mobs do pve. </p>
+                        <p>No evento 4º - Escolha o mob <strong class="text-blue">IFRIT (Veromos)</strong> ele te ajudará a fazer a masmorra do dragão.</p>
+                        <p><strong class="text-blue">Dica:</strong> No evento que invoca um mob 4*, escolha o <strong class="text-blue">SILF (Tyron)</strong>, ele vai lhe ajudar a completar sua primeira toa normal.</p>
+                        <p><strong class="text-blue">Obs.:</strong> Caso tenha pego tyron, sumonando alguns ms, até o momento, escolha Kaki, Astar, Verdehile, ou, algum mob de pve.</p>
                     </div>
                 </div>
-            </div>
-            <div>
-                <h3><a href="#">Time de DOT para Gigante B12</a></h3>
-                <div>
-                    <div class="img-box"><img src="imagens/guia-iniciante-gigante-b12-dot.png" alt="GB12-dot" class="img-geral"></div>
+            </section>
+            <hr>
+            <section>
+                <h3><a href="#">Mobs de Fusão</a></h3>
+                <div class="box">
+                    <div class="img-box"><img src="imagens/guia-iniciante-mobs-fusao.png" alt="mobs-fusão" class="img-geral"></div>
                     <div>
-                        <p>Existe o time speed, para fazer gigante b12 em menos de 1min. Porém, irá atrasar um pouco seu Dragão B12.</p>
-                        <p><strong class="text-blue">Time:</strong> Fran(L), Sath, Driads e Tatu.</p>
-                        <p><strong class="text-blue">Obs.:</strong> Tatu, sempre deve, jogar por ultimo, para estourar os dot.</p>
+                        <p>Alguns mobs são primordiais para seu PVE, um deles é o <strong class="text-blue">Verdehile</strong> e ás <strong class="text-blue">Driad</strong>, com esses mobs, você irá fazer: o Dragão B12, 2ª awaken, raid, etc..</p>
+                        <p>Sempre verifique os mobs sumonados, pois podem fazer parte de algum material de fusão - na dúvida olhe no edificio de fusão.</p>
+                        <p><strong class="text-blue">Obs.:</strong> caso pegue mobs de fusão no ms, guarde os mobs 3/4* para fazer as fusões ou realizar up-skills.</p>
                     </div>
                 </div>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <h3><a href="#">Primeiro Dragão B12</a></h3>
-            <div>
-                <div class="img-box"><img src="imagens/guia-iniciante-dragao-b12-inicial.png" alt="" class="img-geral"></div>
+            </section>
+            <hr>
+            <section>
+                <h3><a href="#">SD's Importantes</a></h3>
                 <div>
-                    <p>Além do time de tricaru, tem um inicial, para fazer seu D12, antes de você consegui, fazer o famoso time tricaru.</p>
-                    <p><strong class="text-blue">Time:</strong> Verd(L), Bella, Vero,Sig ou Loren e Spectra</p>
-                    <p><strong class="text-blue">Obs.:</strong> Spectra não precisa estar 6* e nem com 2awk.</p>
+                    <div class="img-box"><img src="imagens/guia-iniciante-sds-importantes.png" alt="SDs-importantes" class="img-geral"></div>
+                    <div>
+                        <p>Todas ás sextas e sábados, abrem masmorras de todos elementos. Nelas você encontrará 2 mobs importantes para seu PVE.</p>
+                        <div class="center">
+                            <p><strong>INUGAMI de escuridão (KRO)</strong></p>
+                            <p><strong>INUGAMI de luz (Belladeon)</strong></p>
+                            <p><strong>VAQUEIRA de luz (LOREN)</strong></p>
+                        </div>
+                        <p>Estes mobs iram te ajudar em: Raid, gigante, dragão, 2awk, pve, pvp, etc.</p>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h3><a href="#">1º Despertar</a></h3>
+                <div>
+                    <div class="img-box"><img src="imagens/guia-iniciante-1-despertar.png" alt="1-despertar" class="img-geral"></div>
+                    <div>
+                        <p>Após você conseguir o <strong class="text-blue">KRO</strong>, upar e conseguir por ele 6*. Você irá despertá-lo (2awk).</p>
+                        <p>Vá até o portal da dimensão, em Karzan. Vai subindo os andares, até o nível 5.</p>
+                        <p><strong class="text-blue">Time:</strong> Verd(L),Loren, Fran e Kro.</p>
+                        <p>Foque os cristais da direita, esquerda e boss.</p>
+                        <p><strong class="text-blue">Dica:</strong> Nunca deixe chegar 100/100 de energia. Use sempre que possível.</p>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <div>
+                    <h3><a href="#">Primeiro Time de Gigante B12</a></h3>
+                    <div>
+                        <div class="img-box"><img src="imagens/guia-iniciante-gigante-b12-inicial.png" alt="GB12-inicial" class="img-geral"></div>
+                        <div>
+                            <p>Seguindo nosso guia de iniciante. Agora com time formado, você começara a fazer gigante b12.</p>
+                            <p>Nesta parte do seu pve, você vai precisar farma bastante para conseguir as runas: Swifth, Blade, Fatal. </p>
+                            <p><strong class="text-blue">Obs.:</strong> Vá na aba de runas, para saber como runar os mobs do pve. </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3><a href="#">Time de DOT para Gigante B12</a></h3>
+                    <div>
+                        <div class="img-box"><img src="imagens/guia-iniciante-gigante-b12-dot.png" alt="GB12-dot" class="img-geral"></div>
+                        <div>
+                            <p>Existe o time speed, para fazer gigante b12 em menos de 1min. Porém, irá atrasar um pouco seu Dragão B12.</p>
+                            <p><strong class="text-blue">Time:</strong> Fran(L), Sath, Driads e Tatu.</p>
+                            <p><strong class="text-blue">Obs.:</strong> Tatu, sempre deve, jogar por ultimo, para estourar os dot.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h3><a href="#">Primeiro Dragão B12</a></h3>
+                <div>
+                    <div class="img-box"><img src="imagens/guia-iniciante-dragao-b12-inicial.png" alt="" class="img-geral"></div>
+                    <div>
+                        <p>Além do time de tricaru, tem um inicial, para fazer seu D12, antes de você consegui, fazer o famoso time tricaru.</p>
+                        <p><strong class="text-blue">Time:</strong> Verd(L), Bella, Vero,Sig ou Loren e Spectra</p>
+                        <p><strong class="text-blue">Obs.:</strong> Spectra não precisa estar 6* e nem com 2awk.</p>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h3><a href="#">Asas de Arena</a></h3>
+                <div>
+                    <div class="img-box"><img src="imagens/guia-iniciante-arena.png" alt="" class="img-geral"></div>
+                    <div>
+                        <p><strong class="text-blue">Dica de ouro:</strong> Sempre que você upa de level, suas energias de arena, resetam. Então antes de upar, jogue na arena, os pontos de arena, servem para evoluir os totens de atributo. </p>
+                        <p>Os bufs do totem, são globais e primordial, pro seu pve. ficará mais safe.</p>
+                        <p>Média de pontos, até o nível 50, jogando contra Amir: <strong class="text-blue">1.500</strong> pontos.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="box-lateral">
+            <div class="cases">
+                <div class="case-logo">
+                    <img src="imagens/logo-reactattack2.png" alt="" class="img-logo-lateral">
                 </div>
             </div>
-        </section>
-        <hr>
-        <section>
-            <h3><a href="#">Asas de Arena</a></h3>
-            <div>
-                <div class="img-box"><img src="imagens/guia-iniciante-arena.png" alt="" class="img-geral"></div>
-                <div>
-                    <p><strong class="text-blue">Dica de ouro:</strong> Sempre que você upa de level, suas energias de arena, resetam. Então antes de upar, jogue na arena, os pontos de arena, servem para evoluir os totens de atributo. </p>
-                    <p>Os bufs do totem, são globais e primordial, pro seu pve. ficará mais safe.</p>
-                    <p>Média de pontos, até o nível 50, jogando contra Amir: <strong class="text-blue">1.500</strong> pontos.</p>
+            <div class="cases">
+                <div class="case-menu">
+                    <p>guias</p>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </div>
     <section class="contato">
         <div id="contato2">
             <a href=""><img src="imagens/logo-reactattack.png" alt="logo-rt" class="imgreact"></a>
