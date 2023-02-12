@@ -5,7 +5,7 @@
 @media screen  and (min-width:600px) and (max-width:767px) {
     .painel-banner>.img-logo-painel{
         display: none;
-        transition: all 1s;
+        transition: height 1s;
     }
     .painel-banner>.img-banner-painel{
         display: block;
@@ -17,13 +17,39 @@
         transition: all 1s;
     }
 
+    .contato {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 1s;
+    }
+
+    .contato>.contato-logo>a>.img-react{
+        width: 150px;
+        margin-right: 0px;
+    }
+
+    .contato>.contato-info{
+        margin-left: 0px;
+    }
+
+    .contato>.contato-info>p{
+        margin-left: 0px;
+        line-height: 18px;
+    }
+
+    .contato>.contato-apps{
+        margin: 10px 0px;
+    }
+
 }
 
 @media screen  and (min-width:768px) and (max-width:991px) {
     .painel-banner{
-        border-radius: 0px 0px 5px 5px;
+        border-radius: 0px 0px 10px 10px;
         height: 230px;
-        transition: all 1s;
+        transition: height 1s;
     }
 
     .painel-banner>.img-logo-painel{
@@ -52,14 +78,40 @@
         transition: all 1s;
     }
 
+    .contato {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        transition: all 1s;
+    }
+
+    .contato>.contato-logo>a>.img-react{
+        width: 150px;
+        margin-right: 0px;
+    }
+
+    .contato>.contato-info{
+        margin-left: 0px;
+    }
+
+    .contato>.contato-info>p{
+        margin-left: 0px;
+        line-height: 18px;
+    }
+
+    .contato>.contato-apps{
+        margin: 10px 0px;
+    }
+
+
 }
 
 @media screen  and (min-width:992px) {
-    
     .painel-banner{
-        border-radius: 0px 0px 5px 5px;
+        border-radius: 0px 0px 10px 10px;
         height: 260px;
-        transition: all 1s;
+        transition: height 1s;
     }
     .painel-banner>.img-banner-painel{
         display: block;
@@ -87,5 +139,32 @@
         max-width: 981px;
         transition: all 1s;
     }
+
+    .contato {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: all 1s;
+    }
+
+    .contato>.contato-logo>a>.img-react{
+        width: 150px;
+        margin-right: 0px;
+    }
+
+    .contato>.contato-info{
+        margin-left: 0px;
+    }
+
+    .contato>.contato-info>p{
+        margin-left: 0px;
+        line-height: 18px;
+    }
+
+    .contato>.contato-apps{
+        margin: 10px 0px;
+    }
+
 
 }

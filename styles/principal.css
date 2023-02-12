@@ -74,7 +74,7 @@ body{
     border: 5px solid rgb(62, 197, 212);
     background-color: black;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.164);
-    transition: all 1s;
+    transition: height 1s;
 }
 
 .painel-banner>.img-banner-painel{
@@ -99,7 +99,7 @@ header{
     display: grid;
     justify-content: center;
     justify-items: center;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.164);
 }
 
@@ -175,59 +175,43 @@ main {
     line-height: 19px;
 }
 
-.contato>.contato2{
+.contato>.contato-logo>a>.img-react{
+    width: 130px;
+    margin: 5px;
+}
+
+.contato>.contato-info {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    padding-bottom: 10px;
-    padding-top: 20px;
-}
-
-.contato>.contato2>.sobrenos{
-    text-align: center;
     color: white;
+    margin: 5px;
 }
 
-.contato>.contato2>div>p{
+.contato>.contato-info>p{
     text-indent: 0px;
-    text-align: center;
-    margin-bottom: 1px;
+    line-height: 15px;
 }
 
-.contato>.contato2>.sobrenos>p>a{
+.contato>.contato-info>p>a{
     color: white;
     transition: all 0.5s;
 }
 
-.contato>.contato2>.sobrenos>p>a:hover{
+.contato>.contato-info>p>a:hover {
     color: #3EC5D4;
     transition: all 0.5s;
 }
 
-.contato>.contato2>.sobrenos>p{
-    padding-bottom: 6px;
-}
-
-.contato>.box-apps{
+.contato>.contato-apps {
     display: flex;
     flex-direction: column;
 }
 
-.contato>.contato2>a>.img-react{
-    width: 105px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.contato>.contato-apps>a>.img-appstore, .img-googleplay {
+    width: 210px;
+    margin: 5px;
 }
-
-.contato>.box-apps>a>.img-appstore, .img-googleplay {
-    width: 250px;
-    height: 70px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    transition: all 0.2s;
-}
-
 
 /****************************  Barra Lateral  ***************************/
 
@@ -273,12 +257,6 @@ main {
     box-shadow: none;
     border-radius: none;
 }
-
-.big-box>.box-lateral>.box-lateral-case1>.case-logo{
-    width: 180px;
-}
-
-
 
 /******************************  Footer  *******************************/
 
