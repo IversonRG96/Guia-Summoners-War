@@ -5,13 +5,16 @@
 @media screen  and (min-width:600px) and (max-width:767px) {
     .painel-banner>.img-logo-painel{
         display: none;
+        transition: all 1s;
     }
     .painel-banner>.img-banner-painel{
         display: block;
+        transition: all 1s;
     }
 
     .big-box>.box-lateral {
         display: none;
+        transition: all 1s;
     }
 
 }
@@ -20,27 +23,33 @@
     .painel-banner{
         border-radius: 0px 0px 5px 5px;
         height: 230px;
+        transition: all 1s;
     }
 
     .painel-banner>.img-logo-painel{
         display: none;
+        transition: all 1s;
     }
 
     .painel-banner>.img-banner-painel{
         display: block;
         width: 400px;
+        transition: all 1s;
     }
 
     .big-box>.box-lateral{
         display: block;
+        transition: all 1s;
     }
     
     #menuHamb{
         display: none;
+        transition: all 1s;
     }
 
     main {
         max-width: 772px;
+        transition: all 1s;
     }
 
 }
@@ -50,22 +59,33 @@
     .painel-banner{
         border-radius: 0px 0px 5px 5px;
         height: 260px;
+        transition: all 1s;
     }
     .painel-banner>.img-banner-painel{
-        width: 260px;
+        display: block;
+        width: 480px;
+        transition: all 1s;
     }    
+
+    .painel-banner>.img-logo-painel{
+        display: none;
+        transition: all 1s;
+    }
     
     .big-box>.box-lateral{
         display: block;
+        transition: all 1s;
     }
 
     #menuHamb{
         display: none;
+        transition: all 1s;
     }
 
     
     main {
         max-width: 981px;
+        transition: all 1s;
     }
 
 }
