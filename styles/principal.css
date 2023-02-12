@@ -78,18 +78,13 @@ body{
 
 .painel-banner>.img-banner-painel{
     display: none;
-    box-shadow: none;
-    background-color: black;
-    width: 280px;
+    width: 360px;
 }
 
 .painel-banner>.img-logo-painel{
-    box-shadow: none;
-    background-color: black;
+    display: block;
     width: 195px;
 }
-
-
 
 /******************************  Menu  *******************************/
 
@@ -252,26 +247,47 @@ main {
     justify-content: center;
 }
 
-.big-box>.box-main{}
-
-.big-box>.box-menu-lateral{
+.big-box>.box-lateral{
     display: none;
     margin: 20px 0px;
-    padding: 10px;
-    min-width: 175px;
-    max-width: 175px;
-    height: 500px;
-    border-radius: 10px;
-    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.17);
-    border: 5px solid rgba(62, 197, 212, 0.622);
-    background-color: rgba(62, 197, 212, 0.105);
-    
+    min-width: 200px;
+    max-width: 200px; 
 }
 
-.big-box>.box-menu-lateral>p{
-    padding: 5px;
+.big-box>.box-lateral>.cases {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(62, 197, 212, 0.622);
+    background-color: rgba(62, 197, 212, 0.105);
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.17);
+}
+
+.big-box>.box-lateral>.cases>div>p{
     text-indent: 0px;
 }
+
+.big-box>.box-lateral>.cases>.case-logo{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 190px;
+}
+
+.big-box>.box-lateral>.cases>.case-logo>.img-logo-lateral{
+    margin: 0px;
+    width: 190px;
+    box-shadow: none;
+    border-radius: none;
+}
+
+.big-box>.box-lateral>.box-lateral-case1>.case-logo{
+    width: 180px;
+}
+
+
 
 /******************************  Footer  *******************************/
 

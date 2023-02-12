@@ -3,23 +3,36 @@
 /***********************  Alteração de Screens  *****************************/
 
 @media screen  and (min-width:600px) and (max-width:767px) {
+    .painel-banner>.img-logo-painel{
+        display: none;
+    }
+    .painel-banner>.img-banner-painel{
+        display: block;
+    }
 
+    .big-box>.box-lateral {
+        display: none;
+    }
 
 }
 
 @media screen  and (min-width:768px) and (max-width:991px) {
-
-     .big-box>.box-menu-lateral{
-        display: block;
-    }
-
     .painel-banner{
         border-radius: 0px 0px 5px 5px;
         height: 230px;
     }
+
+    .painel-banner>.img-logo-painel{
+        display: none;
+    }
+
     .painel-banner>.img-banner-painel{
         display: block;
         width: 400px;
+    }
+
+    .big-box>.box-lateral{
+        display: block;
     }
     
     #menuHamb{
@@ -34,16 +47,16 @@
 
 @media screen  and (min-width:992px) {
     
-    .big-box>.box-menu-lateral{
-        display: block;
-    }
-
     .painel-banner{
         border-radius: 0px 0px 5px 5px;
         height: 260px;
     }
     .painel-banner>.img-banner-painel{
         width: 260px;
+    }    
+    
+    .big-box>.box-lateral{
+        display: block;
     }
 
     #menuHamb{
