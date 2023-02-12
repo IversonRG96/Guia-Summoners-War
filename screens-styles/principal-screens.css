@@ -42,12 +42,10 @@
     .contato>.contato-apps{
         margin: 10px 0px;
     }
-
 }
 
 @media screen  and (min-width:768px) and (max-width:991px) {
     .painel-banner{
-        border-radius: 0px 0px 10px 10px;
         height: 230px;
         transition: height 1s;
     }
@@ -61,6 +59,10 @@
         display: block;
         width: 400px;
         transition: all 1s;
+    }
+
+    .menu-grande{
+        display: block;
     }
 
     .big-box>.box-lateral{
@@ -103,13 +105,10 @@
     .contato>.contato-apps{
         margin: 10px 0px;
     }
-
-
 }
 
 @media screen  and (min-width:992px) {
     .painel-banner{
-        border-radius: 0px 0px 10px 10px;
         height: 260px;
         transition: height 1s;
     }
@@ -123,6 +122,10 @@
         display: none;
         transition: all 1s;
     }
+
+    .menu-grande{
+        display: block;
+    }
     
     .big-box>.box-lateral{
         display: block;
@@ -133,7 +136,6 @@
         display: none;
         transition: all 1s;
     }
-
     
     main {
         max-width: 981px;
@@ -165,6 +167,4 @@
     .contato>.contato-apps{
         margin: 10px 0px;
     }
-
-
 }
