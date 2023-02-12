@@ -17,7 +17,8 @@
         border-radius: 0px 0px 5px 5px;
         height: 230px;
     }
-    .painel-banner>.img-painel{
+    .painel-banner>.img-banner-painel{
+        display: block;
         width: 400px;
     }
     
@@ -41,8 +42,8 @@
         border-radius: 0px 0px 5px 5px;
         height: 260px;
     }
-    .painel-banner>.img-painel{
-        width: 460px;
+    .painel-banner>.img-banner-painel{
+        width: 260px;
     }
 
     #menuHamb{

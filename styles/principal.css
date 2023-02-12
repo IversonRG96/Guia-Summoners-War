@@ -76,11 +76,20 @@ body{
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.164);
 }
 
-.painel-banner>.img-painel{
+.painel-banner>.img-banner-painel{
+    display: none;
     box-shadow: none;
     background-color: black;
     width: 280px;
 }
+
+.painel-banner>.img-logo-painel{
+    box-shadow: none;
+    background-color: black;
+    width: 195px;
+}
+
+
 
 /******************************  Menu  *******************************/
 
