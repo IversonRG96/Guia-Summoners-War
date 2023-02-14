@@ -4,31 +4,26 @@ h3{
     text-align: center;
 }
 
-.primeirospassos1-2{
+.primeirospassos1>.primeirospassos1-2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .imgsw-logo {
-    width: 264px;
-    height: 165px;
-    margin: 15px 0px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.30);
-
+    display: none;
 }
 
 .imgsw-mundo{
-    width: 600px;
-    height: 175px;
     display: none;
+    transition: all 0.5s;
 }
 
 .imgsw-mundo2{
     width: 283px;
     height: 165px;
+    transition: all 0.5s;
 }
 
 .img-box {
@@ -38,7 +33,7 @@ h3{
 }
 .img-geral{
     width: 283px;
-    height: 165px;
+    transition: all 0.5s;
 }
 
 .center{
