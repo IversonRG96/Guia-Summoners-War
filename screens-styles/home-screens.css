@@ -3,8 +3,8 @@
 @media screen  and (min-width:600px) and (max-width:767px) {
 
     .video>.video-home>iframe{
-        width: 510px;
-        height: 266px;
+        width: 445px;
+        height: 230px;
         transition: all 0.5s;
     }
 
