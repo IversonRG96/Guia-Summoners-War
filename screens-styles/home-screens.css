@@ -7,6 +7,9 @@
         height: 280px;
     }
     
+    .resumo>div>.imghome2{
+        display: none;
+    }
 
     .video>.video-home>iframe{
         width: 445px;
@@ -63,6 +66,28 @@
 }
 
 @media screen  and (min-width:1200px) {
+
+    .resumo{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .resumo>div>.imghome {
+        display: none;
+    }
+
+    .resumo>div>.imghome2 {
+        display: block;
+        width: 290px;
+        height: 420px;
+        margin: 0px 20px;
+        border-radius: 10px;
+    }
+    
+    .resumo>.texto-home{
+        display: flex;
+        flex-direction: column;
+    }
 
     .video>.video-home>iframe{
         width: 720px;
