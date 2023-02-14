@@ -114,19 +114,20 @@ header{
     margin-bottom: 10px;
 }
 
-nav {
-    display: grid;
-    justify-content: center;
+#menu>.mh-itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-nav > a {
+#menu>.mh-itens> a {
     padding: 4px 14px;
     text-decoration: none;
     color: white;
     border-radius: 5px 5px;
 }
 
-nav > a:hover {
+#menu>.mh-itens> a:hover {
     background-color: white;
     color: black;
     font-weight: bolder;
