@@ -2,6 +2,12 @@
 
 @media screen  and (min-width:600px) and (max-width:767px) {
 
+    .resumo>div>.imghome {
+        width: 280px;
+        height: 280px;
+    }
+    
+
     .video>.video-home>iframe{
         width: 445px;
         height: 230px;
@@ -11,6 +17,10 @@
 }
 
 @media screen  and (min-width:768px) and (max-width:991px) {
+
+    .resumo>div>.imghome2{
+        display: none;
+    }
 
     .video>.video-home>iframe{
         width: 460px;
@@ -22,8 +32,28 @@
 
 @media screen  and (min-width:992px) and (max-width:1199px){
 
-    
+    .resumo{
+        display: flex;
+        flex-direction: row;
+    }
 
+    .resumo>div>.imghome {
+        display: none;
+    }
+
+    .resumo>div>.imghome2 {
+        display: block;
+        width: 290px;
+        height: 420px;
+        margin: 0px 20px;
+        border-radius: 10px;
+    }
+    
+    .resumo>.texto-home{
+        display: flex;
+        flex-direction: column;
+    }
+    
     .video>.video-home>iframe{
         width: 620px;
         height: 324px;

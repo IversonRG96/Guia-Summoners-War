@@ -3,16 +3,23 @@
 /****************************  Resumo  *********************************/
 
 .resumo {
-    margin: 20px 0px 10px 0px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.resumo>.imghome {
-    width: 260px;
-    height: 270px;
+.resumo>div>.imghome {
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
 }
 
-.resumo>p{
+.resumo>.imghome2 {
+    display: none;
+}
+
+.resumo>div>p {
     padding: 5px 15px;
     text-align: justify;
 }
