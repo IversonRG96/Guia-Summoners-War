@@ -22,6 +22,8 @@
 
 @media screen  and (min-width:992px) and (max-width:1199px){
 
+    
+
     .video>.video-home>iframe{
         width: 620px;
         height: 324px;
