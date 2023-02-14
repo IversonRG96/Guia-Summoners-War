@@ -23,12 +23,15 @@
     margin-bottom: 20px;
 }
 
-.video>#video-home{
+.video>.video-home{
     display: flex;
     justify-content: center;
 }
 
-.video>#video-home>iframe{
+.video>.video-home>iframe{
     border-radius: 10px 10px;
-    border: 5px solid black;
+    border: 3px solid black;
+    width: 270px;
+    height: 181px;
+    transition: all 0.5s;
 }

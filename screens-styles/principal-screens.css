@@ -9,12 +9,12 @@
     }
     .painel-banner>.img-banner-painel{
         display: block;
-        transition: all 1s;
+        transition: all 0.5s;
     }
 
     .big-box>.box-lateral {
         display: none;
-        transition: all 1s;
+        transition: all 0.5s;
     }
 
     .contato {
@@ -22,7 +22,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        transition: all 1s;
+        transition: all 0.5s;
     }
 
     .contato>.contato-logo>a>.img-react{
@@ -52,13 +52,13 @@
 
     .painel-banner>.img-logo-painel{
         display: none;
-        transition: all 1s;
+        transition: all 0.5s;
     }
 
     .painel-banner>.img-banner-painel{
         display: block;
         width: 400px;
-        transition: all 1s;
+        transition: all 0.5s;
     }
 
     .menu-grande{
@@ -67,17 +67,17 @@
 
     .big-box>.box-lateral{
         display: block;
-        transition: all 1s;
+        transition: all 0.5s;
     }
     
     #menuHamb{
         display: none;
-        transition: all 1s;
+        transition: all 0.5s;
     }
 
     main {
-        max-width: 772px;
-        transition: all 1s;
+        max-width: 550px;
+        transition: all 0.5s;
     }
 
     .contato {
@@ -107,7 +107,7 @@
     }
 }
 
-@media screen  and (min-width:992px) {
+@media screen  and (min-width:992px) and (max-width:1199px){
     .painel-banner{
         height: 260px;
         transition: height 1s;
@@ -115,12 +115,12 @@
     .painel-banner>.img-banner-painel{
         display: block;
         width: 480px;
-        transition: all 1s;
+        transition: all 0.5s;
     }    
 
     .painel-banner>.img-logo-painel{
         display: none;
-        transition: all 1s;
+        transition: all 0.5s;
     }
 
     .menu-grande{
@@ -129,17 +129,80 @@
     
     .big-box>.box-lateral{
         display: block;
-        transition: all 1s;
+        transition: all 0.5s;
     }
 
     #menuHamb{
         display: none;
-        transition: all 1s;
+        transition: all 0.5s;
     }
     
     main {
-        max-width: 981px;
-        transition: all 1s;
+        max-width: 780px;
+        transition: all 0.5s;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: all 0.5s;
+    }
+
+    .contato>.contato-logo>a>.img-react{
+        width: 150px;
+        margin-right: 0px;
+    }
+
+    .contato>.contato-info{
+        margin-left: 0px;
+    }
+
+    .contato>.contato-info>p{
+        margin-left: 0px;
+        line-height: 18px;
+    }
+
+    .contato>.contato-apps{
+        transition: all 0.5s;
+    }
+}
+
+@media screen  and (min-width:1200px){
+
+    .painel-banner{
+        height: 260px;
+        transition: all 0.5s;
+    }
+    .painel-banner>.img-banner-painel{
+        display: block;
+        width: 480px;
+        transition: all 0.5s;
+    }    
+
+    .painel-banner>.img-logo-painel{
+        display: none;
+        transition: all 0.5s;
+    }
+
+    .menu-grande{
+        display: block;
+    }
+    
+    .big-box>.box-lateral{
+        display: block;
+        transition: all 0.5s;
+    }
+
+    #menuHamb{
+        display: none;
+        transition: all 0.5s;
+    }
+    
+    main {
+        max-width: 900px;
+        transition: all 0.5s;
     }
 
     .contato {

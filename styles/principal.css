@@ -235,7 +235,7 @@ nav > a:hover {
 /*****************************  Main  ********************************/
 
 main {
-    max-width: 545px;
+    max-width: 550px;
     margin: auto;
 }
 
@@ -272,7 +272,7 @@ main {
     margin: 20px 0px;
     min-width: 200px;
     max-width: 200px;
-    transition: all 1s; 
+    transition: all 0.5s;
 }
 
 .big-box>.box-lateral>.cases {
