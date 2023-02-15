@@ -373,6 +373,7 @@ main {
 
 .contato>.contato-apps>a>.img-appstore, .img-googleplay {
     width: 210px;
+    border-radius: 0px;
     margin: 5px;
 }
 

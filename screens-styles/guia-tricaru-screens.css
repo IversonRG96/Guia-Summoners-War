@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@media screen and (min-width:600px) and (max-width:767px) {
+
+p {
+    text-align: center;
+}
+
+    .box-img-verde>.img-verde-tricarus {
+        width: 110px;
+    }
+
+    .box-img-tricaru>.imgs-tricaru{
+        width: 140px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    
+    .box-imgs-runa-skill{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .box-imgs-runa-skill>.img-fullguard , .img-tricaru-skill{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 240px;
+        height: 225px;
+    }
+
+    .box-img-verde>.img-verde{
+        width: 135px;
+    }
+    
+    .box-img-verde>.img-verde-runas {
+        width: 500px;
+    }
+
+    .video-tricaru>iframe{
+        width: 490px;
+        height: 320px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    
+    p {
+        text-align: center;
+    }
+    
+        .box-img-verde>.img-verde-tricarus {
+            width: 110px;
+        }
+    
+        .box-img-tricaru>.imgs-tricaru{
+            width: 140px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    
+        
+        .box-imgs-runa-skill{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+        }
+    
+        .box-imgs-runa-skill>.img-fullguard , .img-tricaru-skill{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 240px;
+            height: 225px;
+        }
+    
+        .box-img-verde>.img-verde{
+            width: 135px;
+        }
+        
+        .box-img-verde>.img-verde-runas {
+            width: 500px;
+        }
+    
+        .video-tricaru>iframe{
+            width: 490px;
+            height: 320px;
+        }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+    p {
+        text-align: center;
+    }
+    
+    .box-img-verde>.img-verde-tricarus {
+        width: 110px;
+    }
+
+    .box-img-tricaru>.imgs-tricaru{
+        width: 140px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .tabela-tricaru-metade {
+        display: none;
+    }    
+
+    .tabela-tricaru {
+        display: block;
+        width: 750px;
+    }
+
+    .box-imgs-runa-skill{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .box-imgs-runa-skill>.img-fullguard , .img-tricaru-skill{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 240px;
+        height: 225px;
+    }
+
+    .box-img-verde>.img-verde{
+        width: 135px;
+    }
+    
+    .box-img-verde>.img-verde-runas {
+        width: 500px;
+    }
+
+    .video-tricaru>iframe{
+        width: 490px;
+        height: 320px;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+    
+}
