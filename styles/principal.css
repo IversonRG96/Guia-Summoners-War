@@ -238,6 +238,7 @@ header{
 main {
     max-width: 550px;
     margin: auto;
+    margin-bottom: 15px;
 }
 
 /*****************************  Comunicado  ********************************/

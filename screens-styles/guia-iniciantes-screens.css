@@ -12,6 +12,10 @@
 
 @media screen and (min-width: 768px) and (max-width:991px){
 
+    main{
+        text-align: center;
+    }
+
     .primeirospassos1{
         display: flex;
         flex-direction: row;
@@ -44,6 +48,10 @@
 }
 
 @media screen and (min-width: 992px) and (max-width:1199px){
+
+    .text-espacamento{
+        line-height: 30px;
+    }
     
     .primeirospassos1{
         display: flex;
@@ -98,12 +106,104 @@
         text-align: center;
     }
     
-    .img-box {
-        
+    .box-horizontal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
-    
+
+    .box-horizontal>div>p{
+        text-align: start;
+        text-indent: 0px;
+    }
+
+    .img-geral{
+        margin: 10px 20px;
+        width: 360px;
+        height: 200px;
+    }
 }
 
 @media screen and (min-width: 1200px){
+
+    .text-espacamento{
+        line-height: 45px;
+    }
+
+    .text-espacamento2{
+        line-height: 30px;
+    }
+
+    .primeirospassos1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .primeirospassos1>.primeirospassos1-2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .primeirospassos1>.primeirospassos1-2>p{
+        text-indent: 0px;
+    }
+
+    .primeirospassos1>.imgsw-logo{
+        display: block;
+        width: 290px;
+        height: auto;
+        margin: 0px 0px 0px 25px;
+    }
+
+    .box-text-ci{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 10px;
+    }
+
+    .box-img-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-img-texto>.img-box>.imgsw-mundo2{
+        display: none;
+    }
+
+    .box-img-texto>.img-box>.imgsw-mundo{
+        display: block;
+        width: 880px;
+        height: 190px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .box-img-texto>p{
+        text-align: center;
+    }
+    
+    .box-horizontal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-horizontal>div>p{
+        text-align: start;
+        text-indent: 0px;
+    }
+
+    .img-geral{
+        margin: 10px 20px;
+        width: 400px;
+        height: 220px;
+    }
     
 }

@@ -4,6 +4,10 @@ h3{
     text-align: center;
 }
 
+main{
+    text-align: center;
+}
+
 .primeirospassos1>.primeirospassos1-2{
     display: flex;
     flex-direction: column;
@@ -26,11 +30,6 @@ h3{
     transition: all 0.5s;
 }
 
-.img-box {
-    display: flex;
-    justify-content: center;
-
-}
 .img-geral{
     width: 283px;
     transition: all 0.5s;
